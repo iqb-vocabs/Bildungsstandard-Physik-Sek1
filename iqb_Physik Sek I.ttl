@@ -1,0 +1,319 @@
+@base <https://example.com/iqb/bista2004phy1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Bildungsstandards für das Fach Physik im Sekundarbereich I. Im Folgenden werden für die vier Kompetenzbereiche Regelstandards formuliert, die von Schülerinnen und Schülern mit Erreichen des Mittleren Schulabschlusses zu erwerben sind. Eine Zuordnung konkreter Inhalte erfolgt exemplarisch in den Aufgabenbeispielen. Die Standards sind nach den im Kapitel 2 beschriebenen Kompetenzbereichen geordnet." ;
+    dct:publisher "IQB" ;
+    dct:title "Physik Sek I" .
+
+<phy001> a skos:Concept ;
+    skos:definition "Physikalische Phänomene, Begriffe, Prinzipien, Fakten, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen. Physikalisches Fachwissen, wie es durch die vier Basiskonzepte charakterisiert wird, beinhaltet Wissen über Phänomene, Begriffe, Bilder, Modelle und deren Gültigkeitsbereiche sowie über funktionale Zusammenhänge und Strukturen. Als strukturierter Wissensbestand bildet das Fachwissen die Basis zur Bearbeitung physikalischer Probleme und Aufgaben. Das Verständnis von Zusammenhängen, Konzepten und Modellen sowie deren Nutzung zur weiteren Erkenntnisgewinnung und zur Diskussion bzw. zur Lösung offener, kontextbezogener Aufgabenstellungen ist Teil einer anspruchsvollen Problembearbeitung. Im Folgenden werden die vier Basiskonzepte näher ausgeführt und Beispiele für mögliche Konkretisierungen angegeben." ;
+    skos:prefLabel "Fachwissen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.3",
+        "https://example.com/iqb/bista2004phy1/phy001/1.4",
+        "https://example.com/iqb/bista2004phy1/phy001/1.5" .
+
+<phy001/1.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001" ;
+    skos:prefLabel "Materie" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.3" .
+
+<phy001/1.1/1.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1" ;
+    skos:prefLabel "Körper können verschiedene Aggregatzustände annehmen. Diese können sich durch äußere Einwirkungen ändern." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.1/1.1.1.1" .
+
+<phy001/1.1/1.1.1/1.1.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.1" ;
+    skos:prefLabel "Beispiele: Form und Volumen von Körpern" .
+
+<phy001/1.1/1.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1" ;
+    skos:prefLabel "Körper bestehen aus Teilchen." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.2/1.1.2.1" .
+
+<phy001/1.1/1.1.2/1.1.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.2" ;
+    skos:prefLabel "Beispiele: Teilchenmodell, Brownsche Bewegung" .
+
+<phy001/1.1/1.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1" ;
+    skos:prefLabel "Materie ist strukturiert." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.3/1.1.3.1" .
+
+<phy001/1.1/1.1.3/1.1.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.1/1.1.3" ;
+    skos:prefLabel "Beispiele: Atome, Moleküle, Kristalle" .
+
+<phy001/1.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001" ;
+    skos:prefLabel "Wechselwirkung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.3" .
+
+<phy001/1.2/1.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2" ;
+    skos:prefLabel "Wenn Körper aufeinander einwirken, kann eine Verformung oder eine Änderung der Bewegungszustände der Körper auftreten." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.1/1.2.1.1" .
+
+<phy001/1.2/1.2.1/1.2.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.1" ;
+    skos:prefLabel "Beispiele: Kraftwirkungen, Trägheitsgesetz, Wechselwirkungsgesetz, Impuls" .
+
+<phy001/1.2/1.2.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2" ;
+    skos:prefLabel "Körper können durch Felder aufeinander einwirken." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.2/1.2.2.1" .
+
+<phy001/1.2/1.2.2/1.2.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.2" ;
+    skos:prefLabel "Beispiele: Kräfte zwischen Ladungen, Schwerkraft, Kräfte zwischen Magneten" .
+
+<phy001/1.2/1.2.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2" ;
+    skos:prefLabel "Strahlung kann mit Materie wechselwirken, dabei können sich Strahlung und Materie verändern." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.3/1.2.3.1" .
+
+<phy001/1.2/1.2.3/1.2.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.2/1.2.3" ;
+    skos:prefLabel "Beispiele: Reflexion, Brechung, Totalreflexion, Farben, Treibhauseffekt, globale Erwärmung, ionisierende Strahlung" .
+
+<phy001/1.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001" ;
+    skos:prefLabel "System" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.3" .
+
+<phy001/1.3/1.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3" ;
+    skos:prefLabel "Stabile Zustände sind Systeme im Gleichgewicht." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.1/1.3.1.1" .
+
+<phy001/1.3/1.3.1/1.3.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.1" ;
+    skos:prefLabel "Beispiele: Kräftegleichgewicht, Druckgleichgewicht, thermisches Gleichgewicht" .
+
+<phy001/1.3/1.3.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3" ;
+    skos:prefLabel "Gestörte Gleichgewichte können Ströme und Schwingungen hervorrufen." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.2/1.3.2.1" .
+
+<phy001/1.3/1.3.2/1.3.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.2" ;
+    skos:prefLabel "Beispiele: Druck-, Temperatur- bzw. Potenzialunterschiede und die verursachten Strömungen" .
+
+<phy001/1.3/1.3.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3" ;
+    skos:prefLabel "Ströme benötigen einen Antrieb (Ursache) und können durch Widerstände in ihrer Stärke beeinflusst werden." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.3/1.3.3.1" .
+
+<phy001/1.3/1.3.3/1.3.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.3/1.3.3" ;
+    skos:prefLabel "Beispiele: Elektrischer Stromkreis, thermische Ströme" .
+
+<phy001/1.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001" ;
+    skos:prefLabel "Energie" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.3",
+        "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.4" .
+
+<phy001/1.4/1.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4" ;
+    skos:prefLabel "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.1/1.4.1.1" .
+
+<phy001/1.4/1.4.1/1.4.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.1" ;
+    skos:prefLabel "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie" .
+
+<phy001/1.4/1.4.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4" ;
+    skos:prefLabel "Für den Transport und bei der Nutzung von Energie kann ein Wechsel der Energieform bzw. des Energieträgers stattfinden. Dabei kann nur ein Teil der eingesetzten Energie genutzt werden." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.2/1.4.2.1" .
+
+<phy001/1.4/1.4.2/1.4.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.2" ;
+    skos:prefLabel "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung" .
+
+<phy001/1.4/1.4.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4" ;
+    skos:prefLabel "Die Gesamtheit der Energien bleibt konstant." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.3/1.4.3.1" .
+
+<phy001/1.4/1.4.3/1.4.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.3" ;
+    skos:prefLabel "Beispiele: Pumpspeicherwerk, Akkumulator, Wärmepumpe (Kühlschrank)" .
+
+<phy001/1.4/1.4.4> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4" ;
+    skos:prefLabel "Bei Körpern unterschiedlicher Temperatur findet ein Energiefluss von alleine nur von höherer zu niedrigerer Temperatur statt." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.4/1.4.4.1" .
+
+<phy001/1.4/1.4.4/1.4.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.4/1.4.4" ;
+    skos:prefLabel "Beispiele: Wärmeleitung, Strahlung" .
+
+<phy001/1.5> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001" ;
+    skos:prefLabel "Die Schülerinnen und Schüler..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy001/1.5/1.5.1",
+        "https://example.com/iqb/bista2004phy1/phy001/1.5/1.5.2",
+        "https://example.com/iqb/bista2004phy1/phy001/1.5/1.5.3",
+        "https://example.com/iqb/bista2004phy1/phy001/1.5/1.5.4",
+        "https://example.com/iqb/bista2004phy1/phy001/1.5/1.5.5" .
+
+<phy001/1.5/1.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.5" ;
+    skos:prefLabel "F 1 verfügen über ein strukturiertes Basiswissen auf der Grundlage der Basiskonzepte," .
+
+<phy001/1.5/1.5.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.5" ;
+    skos:prefLabel "F 2 geben ihre Kenntnisse über physikalische Grundprinzipien, Größenordnungen, Messvorschriften, Naturkonstanten sowie einfache physikalische Gesetze wieder," .
+
+<phy001/1.5/1.5.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.5" ;
+    skos:prefLabel "F 3 nutzen diese Kenntnisse zur Lösung von Aufgaben und Problemen," .
+
+<phy001/1.5/1.5.4> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.5" ;
+    skos:prefLabel "F 4 wenden diese Kenntnisse in verschiedenen Kontexten an," .
+
+<phy001/1.5/1.5.5> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy001/1.5" ;
+    skos:prefLabel "F 5 ziehen Analogien zum Lösen von Aufgaben und Problemen heran." .
+
+<phy002> a skos:Concept ;
+    skos:definition "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen. Eingebettet in den Prozess physikalischer Erkenntnisgewinnung sind das Experimentieren und das Entwickeln von Fragestellungen wesentliche Bestandteile physikalischen Arbeitens. In jedem Erkenntnisprozess wird auf bereits vorhandenes Wissen zurückgegriffen." ;
+    skos:prefLabel "Erkenntnisgewinnung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.1",
+        "https://example.com/iqb/bista2004phy1/phy002/2.2",
+        "https://example.com/iqb/bista2004phy1/phy002/2.3",
+        "https://example.com/iqb/bista2004phy1/phy002/2.4",
+        "https://example.com/iqb/bista2004phy1/phy002/2.5",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6" .
+
+<phy002/2.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Wahrnehmen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.1/2.1.1" .
+
+<phy002/2.1/2.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.1" ;
+    skos:prefLabel "Beobachten und Beschreiben eines Phänomens, Erkennen einer Problemstellung, Vergegenwärtigen der Wissensbasis" .
+
+<phy002/2.2> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Ordnen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.2/2.2.1" .
+
+<phy002/2.2/2.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.2" ;
+    skos:prefLabel "Zurückführen auf und Einordnen in Bekanntes, Systematisieren" .
+
+<phy002/2.3> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Erklären" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.3/2.3.1" .
+
+<phy002/2.3/2.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.3" ;
+    skos:prefLabel "Modellieren von Realität, Aufstellen von Hypothesen" .
+
+<phy002/2.4> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Prüfen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.4/2.4.1" .
+
+<phy002/2.4/2.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.4" ;
+    skos:prefLabel "Experimentieren, Auswerten, Beurteilen, kritisches Reflektieren von Hypothesen" .
+
+<phy002/2.5> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Modelle bilden" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.5/2.5.1" .
+
+<phy002/2.5/2.5.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.5" ;
+    skos:prefLabel "Idealisieren, Beschreiben von Zusammenhängen, Verallgemeinern, Abstrahieren, Begriffe bilden, Formalisieren, Aufstellen einfacher Theorien, Transferieren" .
+
+<phy002/2.6> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002" ;
+    skos:prefLabel "Die Schülerinnen und Schüler..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.1",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.10",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.2",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.3",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.4",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.5",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.6",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.7",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.8",
+        "https://example.com/iqb/bista2004phy1/phy002/2.6/2.6.9" .
+
+<phy002/2.6/2.6.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 1 beschreiben Phänomene und führen sie auf bekannte physikalische Zusammenhänge zurück," .
+
+<phy002/2.6/2.6.10> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 10 beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung." .
+
+<phy002/2.6/2.6.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 2 wählen Daten und Informationen aus verschiedenen Quellen zur Bearbeitung von Aufgaben und Problemen aus, prüfen sie auf Relevanz und ordnen sie," .
+
+<phy002/2.6/2.6.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 3 verwenden Analogien und Modellvorstellungen zur Wissensgenerierung," .
+
+<phy002/2.6/2.6.4> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 4 wenden einfache Formen der Mathematisierung an," .
+
+<phy002/2.6/2.6.5> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 5 nehmen einfache Idealisierungen vor," .
+
+<phy002/2.6/2.6.6> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 6 stellen an einfachen Beispielen Hypothesen auf," .
+
+<phy002/2.6/2.6.7> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 7 führen einfache Experimente nach Anleitung durch und werten sie aus," .
+
+<phy002/2.6/2.6.8> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 8 planen einfache Experimente, führen sie durch und dokumentieren die Ergebnisse," .
+
+<phy002/2.6/2.6.9> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy002/2.6" ;
+    skos:prefLabel "E 9 werten gewonnene Daten aus, ggf. auch durch einfache Mathematisierungen," .
+
+<phy003> a skos:Concept ;
+    skos:definition "Informationen sach- und fachbezogen erschließen und austauschen. Die Fähigkeit zu adressatengerechter und sachbezogener Kommunikation ist ein wesentlicher Bestandteil physikalischer Grundbildung. Dazu ist es notwendig, über Kenntnisse und Techniken zu verfügen, die es ermöglichen, sich die benötigte Wissensbasis eigenständig zu erschließen. Dazu gehören das angemessene Verstehen von Fachtexten, Graphiken und Tabellen sowie der Umgang mit Informationsmedien und das Dokumentieren des in Experimenten oder Recherchen gewonnenen Wissens. Zur Kommunikation sind eine angemessene Sprech- und Schreibfähigkeit in der Alltags- und der Fachsprache, das Beherrschen der Regeln der Diskussion und moderne Methoden und Techniken der Präsentation erforderlich. Kommunikation setzt die Bereitschaft und die Fähigkeit voraus, eigenes Wissen, eigene Ideen und Vorstellungen in die Diskussion einzubringen und zu entwickeln, den Kommunikationspartnern mit Vertrauen zu begegnen und ihre Persönlichkeit zu respektieren sowie einen Einblick in den eigenen Kenntnisstand zu gewähren." ;
+    skos:prefLabel "Kommunikation" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy003/3.1" .
+
+<phy003/3.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003" ;
+    skos:prefLabel "Die Schülerinnen und Schüler..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.1",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.2",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.3",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.4",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.5",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.6",
+        "https://example.com/iqb/bista2004phy1/phy003/3.1/3.1.7" .
+
+<phy003/3.1/3.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 1 tauschen sich über physikalische Erkenntnisse und deren Anwendungen unter angemessener Verwendung der Fachsprache und fachtypischer Darstellungen aus," .
+
+<phy003/3.1/3.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 2 unterscheiden zwischen alltagssprachlicher und fachsprachlicher Beschreibung von Phänomenen," .
+
+<phy003/3.1/3.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 3 recherchieren in unterschiedlichen Quellen," .
+
+<phy003/3.1/3.1.4> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 4 beschreiben den Aufbau einfacher technischer Geräte und deren Wirkungsweise," .
+
+<phy003/3.1/3.1.5> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 5 dokumentieren die Ergebnisse ihrer Arbeit," .
+
+<phy003/3.1/3.1.6> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 6 präsentieren die Ergebnisse ihrer Arbeit adressatengerecht," .
+
+<phy003/3.1/3.1.7> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy003/3.1" ;
+    skos:prefLabel "K 7 diskutieren Arbeitsergebnisse und Sachverhalte unter physikalischen Gesichtspunkten." .
+
+<phy004> a skos:Concept ;
+    skos:definition "Physikalische Sachverhalte in verschiedenen Kontexten erkennen und bewerten. Das Heranziehen physikalischer Denkmethoden und Erkenntnisse zur Erläuterung, zum Verständnis und zur Bewertung physikalisch-technischer und gesellschaftlicher Entscheidungen ist Teil einer zeitgemäßen Allgemeinbildung. Hierzu ist es wichtig, zwischen physikalischen, gesellschaftlichen und politischen Komponenten einer Bewertung zu unterscheiden. Neben der Fähigkeit zur Differenzierung nach physikalisch belegten, hypothetischen oder nicht naturwissenschaftlichen Aussagen in Texten und Darstellungen ist es auch notwendig, die Grenzen naturwissenschaftlicher Sichtweisen zu kennen." ;
+    skos:prefLabel "Bewertung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy004/4.1" .
+
+<phy004/4.1> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy004" ;
+    skos:prefLabel "Die Schülerinnen und Schüler..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004phy1/phy004/4.1/4.1.1",
+        "https://example.com/iqb/bista2004phy1/phy004/4.1/4.1.2",
+        "https://example.com/iqb/bista2004phy1/phy004/4.1/4.1.3",
+        "https://example.com/iqb/bista2004phy1/phy004/4.1/4.1.4" .
+
+<phy004/4.1/4.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy004/4.1" ;
+    skos:prefLabel "B 1 zeigen an einfachen Beispielen die Chancen und Grenzen physikalischer Sichtweisen bei inner- und außerfachlichen Kontexten auf," .
+
+<phy004/4.1/4.1.2> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy004/4.1" ;
+    skos:prefLabel "B 2 vergleichen und bewerten alternative technische Lösungen auch unter Berücksichtung physikalischer, ökonomischer, sozialer und ökologischer Aspekte," .
+
+<phy004/4.1/4.1.3> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy004/4.1" ;
+    skos:prefLabel "B 3 nutzen physikalisches Wissen zum Bewerten von Risiken und Sicherheitsmaßnahmen bei Experimenten, im Alltag und bei modernen Technologien," .
+
+<phy004/4.1/4.1.4> skos:hasTopConcept "https://example.com/iqb/bista2004phy1/phy004/4.1" ;
+    skos:prefLabel "B 4 benennen Auswirkungen physikalischer Erkenntnisse in historischen und gesellschaftlichen Zusammenhängen." .
+
