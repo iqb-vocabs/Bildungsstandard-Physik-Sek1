@@ -1,445 +1,515 @@
-@base <https://example.com/iqb/bista2004phy1/> .
+@base <https://w3id.org/iqb//bista04/bista04-ph-s1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<phy001/1.1/1.1.1/1.1.1.1> a skos:Concept ;
-    skos:broader <phy001/1.1/1.1.1> ;
+<phy001/02d4c1f3-9605-469e-b0b1-d1fea670cf2d> a skos:Concept ;
+    skos:broader <phy001/95aae9f6-1676-4e0e-b398-23cb0b12da29> ;
     skos:inScheme <> ;
+    skos:notation "1.1.1.1" ;
     skos:prefLabel "Beispiele: Form und Volumen von Körpern"@de .
 
-<phy001/1.1/1.1.2/1.1.2.1> a skos:Concept ;
-    skos:broader <phy001/1.1/1.1.2> ;
+<phy001/1120ed7f-3246-411b-a6b1-f1a859d7918f> a skos:Concept ;
+    skos:broader <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
     skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Teilchenmodell, Brownsche Bewegung"@de .
-
-<phy001/1.1/1.1.3/1.1.3.1> a skos:Concept ;
-    skos:broader <phy001/1.1/1.1.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Atome, Moleküle, Kristalle"@de .
-
-<phy001/1.2/1.2.1/1.2.1.1> a skos:Concept ;
-    skos:broader <phy001/1.2/1.2.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Kraftwirkungen, Trägheitsgesetz, Wechselwirkungsgesetz, Impuls"@de .
-
-<phy001/1.2/1.2.2/1.2.2.1> a skos:Concept ;
-    skos:broader <phy001/1.2/1.2.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Kräfte zwischen Ladungen, Schwerkraft, Kräfte zwischen Magneten"@de .
-
-<phy001/1.2/1.2.3/1.2.3.1> a skos:Concept ;
-    skos:broader <phy001/1.2/1.2.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Reflexion, Brechung, Totalreflexion, Farben, Treibhauseffekt, globale Erwärmung, ionisierende Strahlung"@de .
-
-<phy001/1.3/1.3.1/1.3.1.1> a skos:Concept ;
-    skos:broader <phy001/1.3/1.3.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Kräftegleichgewicht, Druckgleichgewicht, thermisches Gleichgewicht"@de .
-
-<phy001/1.3/1.3.2/1.3.2.1> a skos:Concept ;
-    skos:broader <phy001/1.3/1.3.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Druck-, Temperatur- bzw. Potenzialunterschiede und die verursachten Strömungen"@de .
-
-<phy001/1.3/1.3.3/1.3.3.1> a skos:Concept ;
-    skos:broader <phy001/1.3/1.3.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Elektrischer Stromkreis, thermische Ströme"@de .
-
-<phy001/1.4/1.4.1/1.4.1.1> a skos:Concept ;
-    skos:broader <phy001/1.4/1.4.1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie"@de .
-
-<phy001/1.4/1.4.2/1.4.2.1> a skos:Concept ;
-    skos:broader <phy001/1.4/1.4.2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung"@de .
-
-<phy001/1.4/1.4.3/1.4.3.1> a skos:Concept ;
-    skos:broader <phy001/1.4/1.4.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Pumpspeicherwerk, Akkumulator, Wärmepumpe (Kühlschrank)"@de .
-
-<phy001/1.4/1.4.4/1.4.4.1> a skos:Concept ;
-    skos:broader <phy001/1.4/1.4.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Beispiele: Wärmeleitung, Strahlung"@de .
-
-<phy001/1.5/1.5.1> a skos:Concept ;
-    skos:broader <phy001/1.5> ;
-    skos:inScheme <> ;
-    skos:prefLabel "F 1 verfügen über ein strukturiertes Basiswissen auf der Grundlage der Basiskonzepte,"@de .
-
-<phy001/1.5/1.5.2> a skos:Concept ;
-    skos:broader <phy001/1.5> ;
-    skos:inScheme <> ;
+    skos:notation "1.5.2" ;
     skos:prefLabel "F 2 geben ihre Kenntnisse über physikalische Grundprinzipien, Größenordnungen, Messvorschriften, Naturkonstanten sowie einfache physikalische Gesetze wieder,"@de .
 
-<phy001/1.5/1.5.3> a skos:Concept ;
-    skos:broader <phy001/1.5> ;
+<phy001/29c04e56-31ea-418a-8c81-bc5fe2403389> a skos:Concept ;
+    skos:broader <phy001/17ff9520-c76b-444d-b029-2b5f2cb61de1> ;
     skos:inScheme <> ;
-    skos:prefLabel "F 3 nutzen diese Kenntnisse zur Lösung von Aufgaben und Problemen,"@de .
+    skos:notation "1.1.3.1" ;
+    skos:prefLabel "Beispiele: Atome, Moleküle, Kristalle"@de .
 
-<phy001/1.5/1.5.4> a skos:Concept ;
-    skos:broader <phy001/1.5> ;
+<phy001/29df015e-c050-435d-b0ea-5459ef40b022> a skos:Concept ;
+    skos:broader <phy001/60c9ff79-4581-42d7-bf92-5dde8e4fb8d2> ;
     skos:inScheme <> ;
+    skos:notation "1.4.4.1" ;
+    skos:prefLabel "Beispiele: Wärmeleitung, Strahlung"@de .
+
+<phy001/3dacce9a-5c5a-423b-a086-5cb579b16287> a skos:Concept ;
+    skos:broader <phy001/40e68083-b1a6-42f8-8896-a897e07e172a> ;
+    skos:inScheme <> ;
+    skos:notation "1.4.2.1" ;
+    skos:prefLabel "Beispiele: Generator, Motor, Transformator, Wirkungsgrad, Entropie, Abwärme, Energieentwertung"@de .
+
+<phy001/5abfeb4d-01bd-432f-95c5-9c8056f4f90c> a skos:Concept ;
+    skos:broader <phy001/b1b5befe-494e-43b5-9735-2ede06721aa5> ;
+    skos:inScheme <> ;
+    skos:notation "1.2.1.1" ;
+    skos:prefLabel "Beispiele: Kraftwirkungen, Trägheitsgesetz, Wechselwirkungsgesetz, Impuls"@de .
+
+<phy001/5c27037d-88d9-4ca4-84aa-c6656265ebff> a skos:Concept ;
+    skos:broader <phy001/d0b19aba-2550-458a-9f02-64d3f15e6e2c> ;
+    skos:inScheme <> ;
+    skos:notation "1.4.1.1" ;
+    skos:prefLabel "Beispiele: fossile Brennstoffe, Wind- und Sonnenenergie, Kernenergie"@de .
+
+<phy001/8c4fe04d-a214-451e-b1ca-dab4de5be18f> a skos:Concept ;
+    skos:broader <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
+    skos:inScheme <> ;
+    skos:notation "1.5.4" ;
     skos:prefLabel "F 4 wenden diese Kenntnisse in verschiedenen Kontexten an,"@de .
 
-<phy001/1.5/1.5.5> a skos:Concept ;
-    skos:broader <phy001/1.5> ;
+<phy001/926b0113-afc4-40bf-8625-382c9d9949a6> a skos:Concept ;
+    skos:broader <phy001/4401eafa-00ef-41ac-b367-1a7c49514f1d> ;
     skos:inScheme <> ;
+    skos:notation "1.1.2.1" ;
+    skos:prefLabel "Beispiele: Teilchenmodell, Brownsche Bewegung"@de .
+
+<phy001/93ec2b2c-e4f7-4b00-a08d-89ed164fb4a5> a skos:Concept ;
+    skos:broader <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
+    skos:inScheme <> ;
+    skos:notation "1.5.3" ;
+    skos:prefLabel "F 3 nutzen diese Kenntnisse zur Lösung von Aufgaben und Problemen,"@de .
+
+<phy001/9a3a42cd-a578-4576-bc0b-dcd5a3d69182> a skos:Concept ;
+    skos:broader <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
+    skos:inScheme <> ;
+    skos:notation "1.5.5" ;
     skos:prefLabel "F 5 ziehen Analogien zum Lösen von Aufgaben und Problemen heran."@de .
 
-<phy002/2.1/2.1.1> a skos:Concept ;
-    skos:broader <phy002/2.1> ;
+<phy001/a28ab204-e06e-462a-b480-2bb9c3456001> a skos:Concept ;
+    skos:broader <phy001/e53770b8-a1a3-45c9-84e5-a003571e55fe> ;
     skos:inScheme <> ;
-    skos:prefLabel "Beobachten und Beschreiben eines Phänomens, Erkennen einer Problemstellung, Vergegenwärtigen der Wissensbasis"@de .
+    skos:notation "1.3.2.1" ;
+    skos:prefLabel "Beispiele: Druck-, Temperatur- bzw. Potenzialunterschiede und die verursachten Strömungen"@de .
 
-<phy002/2.2/2.2.1> a skos:Concept ;
-    skos:broader <phy002/2.2> ;
+<phy001/a436e7ed-243b-4bf1-910a-b6a24fbbfd18> a skos:Concept ;
+    skos:broader <phy001/f08074a6-e0d1-4969-be04-e4593a069718> ;
     skos:inScheme <> ;
-    skos:prefLabel "Zurückführen auf und Einordnen in Bekanntes, Systematisieren"@de .
+    skos:notation "1.4.3.1" ;
+    skos:prefLabel "Beispiele: Pumpspeicherwerk, Akkumulator, Wärmepumpe (Kühlschrank)"@de .
 
-<phy002/2.3/2.3.1> a skos:Concept ;
-    skos:broader <phy002/2.3> ;
+<phy001/c27d7ebc-5e21-417a-9f8f-8dd4e74ea400> a skos:Concept ;
+    skos:broader <phy001/b69157ac-4972-4fa2-b2aa-52afb5c156ec> ;
     skos:inScheme <> ;
-    skos:prefLabel "Modellieren von Realität, Aufstellen von Hypothesen"@de .
+    skos:notation "1.3.3.1" ;
+    skos:prefLabel "Beispiele: Elektrischer Stromkreis, thermische Ströme"@de .
 
-<phy002/2.4/2.4.1> a skos:Concept ;
-    skos:broader <phy002/2.4> ;
+<phy001/cc7d67fd-b261-4850-a692-55d042f2a3f9> a skos:Concept ;
+    skos:broader <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
     skos:inScheme <> ;
-    skos:prefLabel "Experimentieren, Auswerten, Beurteilen, kritisches Reflektieren von Hypothesen"@de .
+    skos:notation "1.5.1" ;
+    skos:prefLabel "F 1 verfügen über ein strukturiertes Basiswissen auf der Grundlage der Basiskonzepte,"@de .
 
-<phy002/2.5/2.5.1> a skos:Concept ;
-    skos:broader <phy002/2.5> ;
+<phy001/d110d0ba-9a05-48ad-b521-c31dad7a322a> a skos:Concept ;
+    skos:broader <phy001/f5f9adac-9a06-4948-82c9-60b42999644a> ;
     skos:inScheme <> ;
-    skos:prefLabel "Idealisieren, Beschreiben von Zusammenhängen, Verallgemeinern, Abstrahieren, Begriffe bilden, Formalisieren, Aufstellen einfacher Theorien, Transferieren"@de .
+    skos:notation "1.2.3.1" ;
+    skos:prefLabel "Beispiele: Reflexion, Brechung, Totalreflexion, Farben, Treibhauseffekt, globale Erwärmung, ionisierende Strahlung"@de .
 
-<phy002/2.6/2.6.1> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
+<phy001/db550bae-c6e2-4816-b1df-4ec33cb582c9> a skos:Concept ;
+    skos:broader <phy001/1e71f8de-aab7-4b39-b799-58c58402e3f0> ;
     skos:inScheme <> ;
-    skos:prefLabel "E 1 beschreiben Phänomene und führen sie auf bekannte physikalische Zusammenhänge zurück,"@de .
+    skos:notation "1.2.2.1" ;
+    skos:prefLabel "Beispiele: Kräfte zwischen Ladungen, Schwerkraft, Kräfte zwischen Magneten"@de .
 
-<phy002/2.6/2.6.10> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
+<phy001/f0f373e5-17c1-432e-b8e0-dc08d2db2946> a skos:Concept ;
+    skos:broader <phy001/6f4440de-79e3-40d0-b07e-428fc9d8c152> ;
     skos:inScheme <> ;
-    skos:prefLabel "E 10 beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."@de .
+    skos:notation "1.3.1.1" ;
+    skos:prefLabel "Beispiele: Kräftegleichgewicht, Druckgleichgewicht, thermisches Gleichgewicht"@de .
 
-<phy002/2.6/2.6.2> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
+<phy002/0a01bbe8-6df9-4523-adca-a3f56c4850e9> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
     skos:inScheme <> ;
-    skos:prefLabel "E 2 wählen Daten und Informationen aus verschiedenen Quellen zur Bearbeitung von Aufgaben und Problemen aus, prüfen sie auf Relevanz und ordnen sie,"@de .
-
-<phy002/2.6/2.6.3> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
-    skos:inScheme <> ;
+    skos:notation "2.6.3" ;
     skos:prefLabel "E 3 verwenden Analogien und Modellvorstellungen zur Wissensgenerierung,"@de .
 
-<phy002/2.6/2.6.4> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
+<phy002/22f7d4c8-44d0-4d71-8516-a5e5d007acbc> a skos:Concept ;
+    skos:broader <phy002/f6ad5081-fa81-4fbe-acbe-8f3dbae7e649> ;
     skos:inScheme <> ;
-    skos:prefLabel "E 4 wenden einfache Formen der Mathematisierung an,"@de .
+    skos:notation "2.3.1" ;
+    skos:prefLabel "Modellieren von Realität, Aufstellen von Hypothesen"@de .
 
-<phy002/2.6/2.6.5> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
+<phy002/319f52b6-984c-4d47-8622-c79206791630> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
     skos:inScheme <> ;
-    skos:prefLabel "E 5 nehmen einfache Idealisierungen vor,"@de .
-
-<phy002/2.6/2.6.6> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
-    skos:inScheme <> ;
-    skos:prefLabel "E 6 stellen an einfachen Beispielen Hypothesen auf,"@de .
-
-<phy002/2.6/2.6.7> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
-    skos:inScheme <> ;
-    skos:prefLabel "E 7 führen einfache Experimente nach Anleitung durch und werten sie aus,"@de .
-
-<phy002/2.6/2.6.8> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
-    skos:inScheme <> ;
-    skos:prefLabel "E 8 planen einfache Experimente, führen sie durch und dokumentieren die Ergebnisse,"@de .
-
-<phy002/2.6/2.6.9> a skos:Concept ;
-    skos:broader <phy002/2.6> ;
-    skos:inScheme <> ;
+    skos:notation "2.6.9" ;
     skos:prefLabel "E 9 werten gewonnene Daten aus, ggf. auch durch einfache Mathematisierungen,"@de .
 
-<phy003/3.1/3.1.1> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/58198314-e9a1-465d-8c66-0ca33dc6395a> a skos:Concept ;
+    skos:broader <phy002/5951b691-1fb4-48a0-9f91-2aaf347bc117> ;
     skos:inScheme <> ;
-    skos:prefLabel "K 1 tauschen sich über physikalische Erkenntnisse und deren Anwendungen unter angemessener Verwendung der Fachsprache und fachtypischer Darstellungen aus,"@de .
+    skos:notation "2.5.1" ;
+    skos:prefLabel "Idealisieren, Beschreiben von Zusammenhängen, Verallgemeinern, Abstrahieren, Begriffe bilden, Formalisieren, Aufstellen einfacher Theorien, Transferieren"@de .
 
-<phy003/3.1/3.1.2> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/7e8b880e-e43b-493e-9168-f01ad8c85741> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
     skos:inScheme <> ;
-    skos:prefLabel "K 2 unterscheiden zwischen alltagssprachlicher und fachsprachlicher Beschreibung von Phänomenen,"@de .
+    skos:notation "2.6.7" ;
+    skos:prefLabel "E 7 führen einfache Experimente nach Anleitung durch und werten sie aus,"@de .
 
-<phy003/3.1/3.1.3> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/7fbcbbf3-da48-4854-a4d2-4c653734b9f1> a skos:Concept ;
+    skos:broader <phy002/886eb069-8d20-4129-8324-7e9bb38b293b> ;
     skos:inScheme <> ;
-    skos:prefLabel "K 3 recherchieren in unterschiedlichen Quellen,"@de .
+    skos:notation "2.2.1" ;
+    skos:prefLabel "Zurückführen auf und Einordnen in Bekanntes, Systematisieren"@de .
 
-<phy003/3.1/3.1.4> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/8073444c-577a-4c1d-95a2-2fa3bf8aa10d> a skos:Concept ;
+    skos:broader <phy002/eef5ba55-51b8-4d7b-9a98-50a1106569c2> ;
     skos:inScheme <> ;
-    skos:prefLabel "K 4 beschreiben den Aufbau einfacher technischer Geräte und deren Wirkungsweise,"@de .
+    skos:notation "2.4.1" ;
+    skos:prefLabel "Experimentieren, Auswerten, Beurteilen, kritisches Reflektieren von Hypothesen"@de .
 
-<phy003/3.1/3.1.5> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/a64d8af8-8342-413c-a50a-ac428add1dee> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
     skos:inScheme <> ;
-    skos:prefLabel "K 5 dokumentieren die Ergebnisse ihrer Arbeit,"@de .
+    skos:notation "2.6.6" ;
+    skos:prefLabel "E 6 stellen an einfachen Beispielen Hypothesen auf,"@de .
 
-<phy003/3.1/3.1.6> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy002/b888ea8b-e79b-40e7-862e-3ee5dc1254e4> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
     skos:inScheme <> ;
+    skos:notation "2.6.1" ;
+    skos:prefLabel "E 1 beschreiben Phänomene und führen sie auf bekannte physikalische Zusammenhänge zurück,"@de .
+
+<phy002/c32c5d9a-1774-43df-9a65-97ba8a770389> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
+    skos:inScheme <> ;
+    skos:notation "2.6.4" ;
+    skos:prefLabel "E 4 wenden einfache Formen der Mathematisierung an,"@de .
+
+<phy002/c4c84ab5-782c-42e1-8451-5b9b44232891> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
+    skos:inScheme <> ;
+    skos:notation "2.6.8" ;
+    skos:prefLabel "E 8 planen einfache Experimente, führen sie durch und dokumentieren die Ergebnisse,"@de .
+
+<phy002/e42bbfe8-9f5b-4521-a178-62ebd24d4e12> a skos:Concept ;
+    skos:broader <phy002/02f905c2-703d-4882-b22b-9674d9687e79> ;
+    skos:inScheme <> ;
+    skos:notation "2.1.1" ;
+    skos:prefLabel "Beobachten und Beschreiben eines Phänomens, Erkennen einer Problemstellung, Vergegenwärtigen der Wissensbasis"@de .
+
+<phy002/ed5006dd-142c-4e47-97bb-59712d23d5fa> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
+    skos:inScheme <> ;
+    skos:notation "2.6.10" ;
+    skos:prefLabel "E 10 beurteilen die Gültigkeit empirischer Ergebnisse und deren Verallgemeinerung."@de .
+
+<phy002/f01a66d5-bf7d-4a36-b338-eda51af78850> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
+    skos:inScheme <> ;
+    skos:notation "2.6.2" ;
+    skos:prefLabel "E 2 wählen Daten und Informationen aus verschiedenen Quellen zur Bearbeitung von Aufgaben und Problemen aus, prüfen sie auf Relevanz und ordnen sie,"@de .
+
+<phy002/f7335860-2811-4be4-bccc-ff7c12d17605> a skos:Concept ;
+    skos:broader <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> ;
+    skos:inScheme <> ;
+    skos:notation "2.6.5" ;
+    skos:prefLabel "E 5 nehmen einfache Idealisierungen vor,"@de .
+
+<phy003/194ea941-8c0d-476c-9f75-1e84bb496f32> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.6" ;
     skos:prefLabel "K 6 präsentieren die Ergebnisse ihrer Arbeit adressatengerecht,"@de .
 
-<phy003/3.1/3.1.7> a skos:Concept ;
-    skos:broader <phy003/3.1> ;
+<phy003/1b3303a8-0ab7-4382-9634-f04ae977afcf> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
     skos:inScheme <> ;
+    skos:notation "3.1.3" ;
+    skos:prefLabel "K 3 recherchieren in unterschiedlichen Quellen,"@de .
+
+<phy003/5e313405-879c-4149-8dcd-4f1bbbc94d20> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.5" ;
+    skos:prefLabel "K 5 dokumentieren die Ergebnisse ihrer Arbeit,"@de .
+
+<phy003/5ea1facc-8125-4ac5-b697-3fdbe48dec70> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.4" ;
+    skos:prefLabel "K 4 beschreiben den Aufbau einfacher technischer Geräte und deren Wirkungsweise,"@de .
+
+<phy003/927f20bb-4cd0-4ddf-a8f0-e8e8ffbcdec8> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.1" ;
+    skos:prefLabel "K 1 tauschen sich über physikalische Erkenntnisse und deren Anwendungen unter angemessener Verwendung der Fachsprache und fachtypischer Darstellungen aus,"@de .
+
+<phy003/a6ca11e7-ecb6-497e-8bf9-a6b01077942c> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
+    skos:inScheme <> ;
+    skos:notation "3.1.7" ;
     skos:prefLabel "K 7 diskutieren Arbeitsergebnisse und Sachverhalte unter physikalischen Gesichtspunkten."@de .
 
-<phy004/4.1/4.1.1> a skos:Concept ;
-    skos:broader <phy004/4.1> ;
+<phy003/b8e2fb98-ea11-4f13-aa0b-8d2c4a12e024> a skos:Concept ;
+    skos:broader <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
     skos:inScheme <> ;
+    skos:notation "3.1.2" ;
+    skos:prefLabel "K 2 unterscheiden zwischen alltagssprachlicher und fachsprachlicher Beschreibung von Phänomenen,"@de .
+
+<phy004/1fa0d37a-a697-437f-934e-23046f4655c9> a skos:Concept ;
+    skos:broader <phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> ;
+    skos:inScheme <> ;
+    skos:notation "4.1.1" ;
     skos:prefLabel "B 1 zeigen an einfachen Beispielen die Chancen und Grenzen physikalischer Sichtweisen bei inner- und außerfachlichen Kontexten auf,"@de .
 
-<phy004/4.1/4.1.2> a skos:Concept ;
-    skos:broader <phy004/4.1> ;
+<phy004/9b77b255-dfb0-48e4-a379-18d7ee5fb584> a skos:Concept ;
+    skos:broader <phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> ;
     skos:inScheme <> ;
+    skos:notation "4.1.2" ;
     skos:prefLabel "B 2 vergleichen und bewerten alternative technische Lösungen auch unter Berücksichtung physikalischer, ökonomischer, sozialer und ökologischer Aspekte,"@de .
 
-<phy004/4.1/4.1.3> a skos:Concept ;
-    skos:broader <phy004/4.1> ;
+<phy004/df1ee40a-7f2f-4ce4-81e5-bf0bcb16a56a> a skos:Concept ;
+    skos:broader <phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> ;
     skos:inScheme <> ;
+    skos:notation "4.1.3" ;
     skos:prefLabel "B 3 nutzen physikalisches Wissen zum Bewerten von Risiken und Sicherheitsmaßnahmen bei Experimenten, im Alltag und bei modernen Technologien,"@de .
 
-<phy004/4.1/4.1.4> a skos:Concept ;
-    skos:broader <phy004/4.1> ;
+<phy004/e5f40893-74b8-4efc-abeb-cb78edf667f5> a skos:Concept ;
+    skos:broader <phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> ;
     skos:inScheme <> ;
+    skos:notation "4.1.4" ;
     skos:prefLabel "B 4 benennen Auswirkungen physikalischer Erkenntnisse in historischen und gesellschaftlichen Zusammenhängen."@de .
 
-<phy001/1.1/1.1.1> a skos:Concept ;
-    skos:broader <phy001/1.1> ;
+<phy001/17ff9520-c76b-444d-b029-2b5f2cb61de1> a skos:Concept ;
+    skos:broader <phy001/911d380a-b214-4980-bb28-cceb2d98186e> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.1/1.1.1/1.1.1.1> ;
-    skos:prefLabel "Körper können verschiedene Aggregatzustände annehmen. Diese können sich durch äußere Einwirkungen ändern."@de .
-
-<phy001/1.1/1.1.2> a skos:Concept ;
-    skos:broader <phy001/1.1> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.1/1.1.2/1.1.2.1> ;
-    skos:prefLabel "Körper bestehen aus Teilchen."@de .
-
-<phy001/1.1/1.1.3> a skos:Concept ;
-    skos:broader <phy001/1.1> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.1/1.1.3/1.1.3.1> ;
+    skos:narrower <phy001/29c04e56-31ea-418a-8c81-bc5fe2403389> ;
+    skos:notation "1.1.3" ;
     skos:prefLabel "Materie ist strukturiert."@de .
 
-<phy001/1.2/1.2.1> a skos:Concept ;
-    skos:broader <phy001/1.2> ;
+<phy001/1e71f8de-aab7-4b39-b799-58c58402e3f0> a skos:Concept ;
+    skos:broader <phy001/a37d4172-7930-4b9f-8ac6-1cb089fda4be> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.2/1.2.1/1.2.1.1> ;
-    skos:prefLabel "Wenn Körper aufeinander einwirken, kann eine Verformung oder eine Änderung der Bewegungszustände der Körper auftreten."@de .
-
-<phy001/1.2/1.2.2> a skos:Concept ;
-    skos:broader <phy001/1.2> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.2/1.2.2/1.2.2.1> ;
+    skos:narrower <phy001/db550bae-c6e2-4816-b1df-4ec33cb582c9> ;
+    skos:notation "1.2.2" ;
     skos:prefLabel "Körper können durch Felder aufeinander einwirken."@de .
 
-<phy001/1.2/1.2.3> a skos:Concept ;
-    skos:broader <phy001/1.2> ;
+<phy001/40e68083-b1a6-42f8-8896-a897e07e172a> a skos:Concept ;
+    skos:broader <phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.2/1.2.3/1.2.3.1> ;
-    skos:prefLabel "Strahlung kann mit Materie wechselwirken, dabei können sich Strahlung und Materie verändern."@de .
-
-<phy001/1.3/1.3.1> a skos:Concept ;
-    skos:broader <phy001/1.3> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.3/1.3.1/1.3.1.1> ;
-    skos:prefLabel "Stabile Zustände sind Systeme im Gleichgewicht."@de .
-
-<phy001/1.3/1.3.2> a skos:Concept ;
-    skos:broader <phy001/1.3> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.3/1.3.2/1.3.2.1> ;
-    skos:prefLabel "Gestörte Gleichgewichte können Ströme und Schwingungen hervorrufen."@de .
-
-<phy001/1.3/1.3.3> a skos:Concept ;
-    skos:broader <phy001/1.3> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.3/1.3.3/1.3.3.1> ;
-    skos:prefLabel "Ströme benötigen einen Antrieb (Ursache) und können durch Widerstände in ihrer Stärke beeinflusst werden."@de .
-
-<phy001/1.4/1.4.1> a skos:Concept ;
-    skos:broader <phy001/1.4> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.4/1.4.1/1.4.1.1> ;
-    skos:prefLabel "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden."@de .
-
-<phy001/1.4/1.4.2> a skos:Concept ;
-    skos:broader <phy001/1.4> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.4/1.4.2/1.4.2.1> ;
+    skos:narrower <phy001/3dacce9a-5c5a-423b-a086-5cb579b16287> ;
+    skos:notation "1.4.2" ;
     skos:prefLabel "Für den Transport und bei der Nutzung von Energie kann ein Wechsel der Energieform bzw. des Energieträgers stattfinden. Dabei kann nur ein Teil der eingesetzten Energie genutzt werden."@de .
 
-<phy001/1.4/1.4.3> a skos:Concept ;
-    skos:broader <phy001/1.4> ;
+<phy001/4401eafa-00ef-41ac-b367-1a7c49514f1d> a skos:Concept ;
+    skos:broader <phy001/911d380a-b214-4980-bb28-cceb2d98186e> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.4/1.4.3/1.4.3.1> ;
-    skos:prefLabel "Die Gesamtheit der Energien bleibt konstant."@de .
+    skos:narrower <phy001/926b0113-afc4-40bf-8625-382c9d9949a6> ;
+    skos:notation "1.1.2" ;
+    skos:prefLabel "Körper bestehen aus Teilchen."@de .
 
-<phy001/1.4/1.4.4> a skos:Concept ;
-    skos:broader <phy001/1.4> ;
+<phy001/60c9ff79-4581-42d7-bf92-5dde8e4fb8d2> a skos:Concept ;
+    skos:broader <phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.4/1.4.4/1.4.4.1> ;
+    skos:narrower <phy001/29df015e-c050-435d-b0ea-5459ef40b022> ;
+    skos:notation "1.4.4" ;
     skos:prefLabel "Bei Körpern unterschiedlicher Temperatur findet ein Energiefluss von alleine nur von höherer zu niedrigerer Temperatur statt."@de .
 
-<phy002/2.1> a skos:Concept ;
+<phy001/6f4440de-79e3-40d0-b07e-428fc9d8c152> a skos:Concept ;
+    skos:broader <phy001/4b49dc12-016f-4d48-8e94-197bd0cb1575> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/f0f373e5-17c1-432e-b8e0-dc08d2db2946> ;
+    skos:notation "1.3.1" ;
+    skos:prefLabel "Stabile Zustände sind Systeme im Gleichgewicht."@de .
+
+<phy001/95aae9f6-1676-4e0e-b398-23cb0b12da29> a skos:Concept ;
+    skos:broader <phy001/911d380a-b214-4980-bb28-cceb2d98186e> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/02d4c1f3-9605-469e-b0b1-d1fea670cf2d> ;
+    skos:notation "1.1.1" ;
+    skos:prefLabel "Körper können verschiedene Aggregatzustände annehmen. Diese können sich durch äußere Einwirkungen ändern."@de .
+
+<phy001/b1b5befe-494e-43b5-9735-2ede06721aa5> a skos:Concept ;
+    skos:broader <phy001/a37d4172-7930-4b9f-8ac6-1cb089fda4be> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/5abfeb4d-01bd-432f-95c5-9c8056f4f90c> ;
+    skos:notation "1.2.1" ;
+    skos:prefLabel "Wenn Körper aufeinander einwirken, kann eine Verformung oder eine Änderung der Bewegungszustände der Körper auftreten."@de .
+
+<phy001/b69157ac-4972-4fa2-b2aa-52afb5c156ec> a skos:Concept ;
+    skos:broader <phy001/4b49dc12-016f-4d48-8e94-197bd0cb1575> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/c27d7ebc-5e21-417a-9f8f-8dd4e74ea400> ;
+    skos:notation "1.3.3" ;
+    skos:prefLabel "Ströme benötigen einen Antrieb (Ursache) und können durch Widerstände in ihrer Stärke beeinflusst werden."@de .
+
+<phy001/d0b19aba-2550-458a-9f02-64d3f15e6e2c> a skos:Concept ;
+    skos:broader <phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/5c27037d-88d9-4ca4-84aa-c6656265ebff> ;
+    skos:notation "1.4.1" ;
+    skos:prefLabel "Nutzbare Energie kann aus erschöpfbaren und regenerativen Quellen gewonnen werden."@de .
+
+<phy001/e53770b8-a1a3-45c9-84e5-a003571e55fe> a skos:Concept ;
+    skos:broader <phy001/4b49dc12-016f-4d48-8e94-197bd0cb1575> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/a28ab204-e06e-462a-b480-2bb9c3456001> ;
+    skos:notation "1.3.2" ;
+    skos:prefLabel "Gestörte Gleichgewichte können Ströme und Schwingungen hervorrufen."@de .
+
+<phy001/f08074a6-e0d1-4969-be04-e4593a069718> a skos:Concept ;
+    skos:broader <phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/a436e7ed-243b-4bf1-910a-b6a24fbbfd18> ;
+    skos:notation "1.4.3" ;
+    skos:prefLabel "Die Gesamtheit der Energien bleibt konstant."@de .
+
+<phy001/f5f9adac-9a06-4948-82c9-60b42999644a> a skos:Concept ;
+    skos:broader <phy001/a37d4172-7930-4b9f-8ac6-1cb089fda4be> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/d110d0ba-9a05-48ad-b521-c31dad7a322a> ;
+    skos:notation "1.2.3" ;
+    skos:prefLabel "Strahlung kann mit Materie wechselwirken, dabei können sich Strahlung und Materie verändern."@de .
+
+<phy002/02f905c2-703d-4882-b22b-9674d9687e79> a skos:Concept ;
     skos:broader <phy002> ;
     skos:inScheme <> ;
-    skos:narrower <phy002/2.1/2.1.1> ;
+    skos:narrower <phy002/e42bbfe8-9f5b-4521-a178-62ebd24d4e12> ;
+    skos:notation "2.1" ;
     skos:prefLabel "Wahrnehmen"@de .
 
-<phy002/2.2> a skos:Concept ;
+<phy002/5951b691-1fb4-48a0-9f91-2aaf347bc117> a skos:Concept ;
     skos:broader <phy002> ;
     skos:inScheme <> ;
-    skos:narrower <phy002/2.2/2.2.1> ;
+    skos:narrower <phy002/58198314-e9a1-465d-8c66-0ca33dc6395a> ;
+    skos:notation "2.5" ;
+    skos:prefLabel "Modelle bilden"@de .
+
+<phy002/886eb069-8d20-4129-8324-7e9bb38b293b> a skos:Concept ;
+    skos:broader <phy002> ;
+    skos:inScheme <> ;
+    skos:narrower <phy002/7fbcbbf3-da48-4854-a4d2-4c653734b9f1> ;
+    skos:notation "2.2" ;
     skos:prefLabel "Ordnen"@de .
 
-<phy002/2.3> a skos:Concept ;
+<phy002/eef5ba55-51b8-4d7b-9a98-50a1106569c2> a skos:Concept ;
     skos:broader <phy002> ;
     skos:inScheme <> ;
-    skos:narrower <phy002/2.3/2.3.1> ;
-    skos:prefLabel "Erklären"@de .
-
-<phy002/2.4> a skos:Concept ;
-    skos:broader <phy002> ;
-    skos:inScheme <> ;
-    skos:narrower <phy002/2.4/2.4.1> ;
+    skos:narrower <phy002/8073444c-577a-4c1d-95a2-2fa3bf8aa10d> ;
+    skos:notation "2.4" ;
     skos:prefLabel "Prüfen"@de .
 
-<phy002/2.5> a skos:Concept ;
+<phy002/f6ad5081-fa81-4fbe-acbe-8f3dbae7e649> a skos:Concept ;
     skos:broader <phy002> ;
     skos:inScheme <> ;
-    skos:narrower <phy002/2.5/2.5.1> ;
-    skos:prefLabel "Modelle bilden"@de .
+    skos:narrower <phy002/22f7d4c8-44d0-4d71-8516-a5e5d007acbc> ;
+    skos:notation "2.3" ;
+    skos:prefLabel "Erklären"@de .
 
 <phy003> a skos:Concept ;
     skos:definition "Informationen sach- und fachbezogen erschließen und austauschen. Die Fähigkeit zu adressatengerechter und sachbezogener Kommunikation ist ein wesentlicher Bestandteil physikalischer Grundbildung. Dazu ist es notwendig, über Kenntnisse und Techniken zu verfügen, die es ermöglichen, sich die benötigte Wissensbasis eigenständig zu erschließen. Dazu gehören das angemessene Verstehen von Fachtexten, Graphiken und Tabellen sowie der Umgang mit Informationsmedien und das Dokumentieren des in Experimenten oder Recherchen gewonnenen Wissens. Zur Kommunikation sind eine angemessene Sprech- und Schreibfähigkeit in der Alltags- und der Fachsprache, das Beherrschen der Regeln der Diskussion und moderne Methoden und Techniken der Präsentation erforderlich. Kommunikation setzt die Bereitschaft und die Fähigkeit voraus, eigenes Wissen, eigene Ideen und Vorstellungen in die Diskussion einzubringen und zu entwickeln, den Kommunikationspartnern mit Vertrauen zu begegnen und ihre Persönlichkeit zu respektieren sowie einen Einblick in den eigenen Kenntnisstand zu gewähren."@de ;
-    skos:narrower <phy003/3.1> ;
+    skos:narrower <phy003/9be8b732-a969-495e-94c1-552bf479f20d> ;
     skos:prefLabel "Kommunikation"@de ;
     skos:topConceptOf <> .
 
 <phy004> a skos:Concept ;
     skos:definition "Physikalische Sachverhalte in verschiedenen Kontexten erkennen und bewerten. Das Heranziehen physikalischer Denkmethoden und Erkenntnisse zur Erläuterung, zum Verständnis und zur Bewertung physikalisch-technischer und gesellschaftlicher Entscheidungen ist Teil einer zeitgemäßen Allgemeinbildung. Hierzu ist es wichtig, zwischen physikalischen, gesellschaftlichen und politischen Komponenten einer Bewertung zu unterscheiden. Neben der Fähigkeit zur Differenzierung nach physikalisch belegten, hypothetischen oder nicht naturwissenschaftlichen Aussagen in Texten und Darstellungen ist es auch notwendig, die Grenzen naturwissenschaftlicher Sichtweisen zu kennen."@de ;
-    skos:narrower <phy004/4.1> ;
+    skos:narrower <phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> ;
     skos:prefLabel "Bewertung"@de ;
     skos:topConceptOf <> .
 
-<phy001/1.1> a skos:Concept ;
+<phy001/4b49dc12-016f-4d48-8e94-197bd0cb1575> a skos:Concept ;
     skos:broader <phy001> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.1/1.1.1>,
-        <phy001/1.1/1.1.2>,
-        <phy001/1.1/1.1.3> ;
-    skos:prefLabel "Materie"@de .
-
-<phy001/1.2> a skos:Concept ;
-    skos:broader <phy001> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.2/1.2.1>,
-        <phy001/1.2/1.2.2>,
-        <phy001/1.2/1.2.3> ;
-    skos:prefLabel "Wechselwirkung"@de .
-
-<phy001/1.3> a skos:Concept ;
-    skos:broader <phy001> ;
-    skos:inScheme <> ;
-    skos:narrower <phy001/1.3/1.3.1>,
-        <phy001/1.3/1.3.2>,
-        <phy001/1.3/1.3.3> ;
+    skos:narrower <phy001/6f4440de-79e3-40d0-b07e-428fc9d8c152>,
+        <phy001/b69157ac-4972-4fa2-b2aa-52afb5c156ec>,
+        <phy001/e53770b8-a1a3-45c9-84e5-a003571e55fe> ;
+    skos:notation "1.3" ;
     skos:prefLabel "System"@de .
 
-<phy001/1.4> a skos:Concept ;
+<phy001/911d380a-b214-4980-bb28-cceb2d98186e> a skos:Concept ;
     skos:broader <phy001> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.4/1.4.1>,
-        <phy001/1.4/1.4.2>,
-        <phy001/1.4/1.4.3>,
-        <phy001/1.4/1.4.4> ;
+    skos:narrower <phy001/17ff9520-c76b-444d-b029-2b5f2cb61de1>,
+        <phy001/4401eafa-00ef-41ac-b367-1a7c49514f1d>,
+        <phy001/95aae9f6-1676-4e0e-b398-23cb0b12da29> ;
+    skos:notation "1.1" ;
+    skos:prefLabel "Materie"@de .
+
+<phy001/a37d4172-7930-4b9f-8ac6-1cb089fda4be> a skos:Concept ;
+    skos:broader <phy001> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/1e71f8de-aab7-4b39-b799-58c58402e3f0>,
+        <phy001/b1b5befe-494e-43b5-9735-2ede06721aa5>,
+        <phy001/f5f9adac-9a06-4948-82c9-60b42999644a> ;
+    skos:notation "1.2" ;
+    skos:prefLabel "Wechselwirkung"@de .
+
+<phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d> a skos:Concept ;
+    skos:broader <phy001> ;
+    skos:inScheme <> ;
+    skos:narrower <phy001/40e68083-b1a6-42f8-8896-a897e07e172a>,
+        <phy001/60c9ff79-4581-42d7-bf92-5dde8e4fb8d2>,
+        <phy001/d0b19aba-2550-458a-9f02-64d3f15e6e2c>,
+        <phy001/f08074a6-e0d1-4969-be04-e4593a069718> ;
+    skos:notation "1.4" ;
     skos:prefLabel "Energie"@de .
 
-<phy004/4.1> a skos:Concept ;
+<phy004/b81eefc6-0dc3-49ea-b81f-9a7c43a9130c> a skos:Concept ;
     skos:broader <phy004> ;
     skos:inScheme <> ;
-    skos:narrower <phy004/4.1/4.1.1>,
-        <phy004/4.1/4.1.2>,
-        <phy004/4.1/4.1.3>,
-        <phy004/4.1/4.1.4> ;
+    skos:narrower <phy004/1fa0d37a-a697-437f-934e-23046f4655c9>,
+        <phy004/9b77b255-dfb0-48e4-a379-18d7ee5fb584>,
+        <phy004/df1ee40a-7f2f-4ce4-81e5-bf0bcb16a56a>,
+        <phy004/e5f40893-74b8-4efc-abeb-cb78edf667f5> ;
+    skos:notation "4.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler..."@de .
 
 <phy001> a skos:Concept ;
     skos:definition "Physikalische Phänomene, Begriffe, Prinzipien, Fakten, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen. Physikalisches Fachwissen, wie es durch die vier Basiskonzepte charakterisiert wird, beinhaltet Wissen über Phänomene, Begriffe, Bilder, Modelle und deren Gültigkeitsbereiche sowie über funktionale Zusammenhänge und Strukturen. Als strukturierter Wissensbestand bildet das Fachwissen die Basis zur Bearbeitung physikalischer Probleme und Aufgaben. Das Verständnis von Zusammenhängen, Konzepten und Modellen sowie deren Nutzung zur weiteren Erkenntnisgewinnung und zur Diskussion bzw. zur Lösung offener, kontextbezogener Aufgabenstellungen ist Teil einer anspruchsvollen Problembearbeitung. Im Folgenden werden die vier Basiskonzepte näher ausgeführt und Beispiele für mögliche Konkretisierungen angegeben."@de ;
-    skos:narrower <phy001/1.1>,
-        <phy001/1.2>,
-        <phy001/1.3>,
-        <phy001/1.4>,
-        <phy001/1.5> ;
+    skos:narrower <phy001/4b49dc12-016f-4d48-8e94-197bd0cb1575>,
+        <phy001/911d380a-b214-4980-bb28-cceb2d98186e>,
+        <phy001/a37d4172-7930-4b9f-8ac6-1cb089fda4be>,
+        <phy001/e7e23960-9d74-4e3f-b58f-858af2cdcd8d>,
+        <phy001/f30b32be-a17e-42b0-b6e0-7572780db286> ;
     skos:prefLabel "Fachwissen"@de ;
     skos:topConceptOf <> .
 
-<phy001/1.5> a skos:Concept ;
+<phy001/f30b32be-a17e-42b0-b6e0-7572780db286> a skos:Concept ;
     skos:broader <phy001> ;
     skos:inScheme <> ;
-    skos:narrower <phy001/1.5/1.5.1>,
-        <phy001/1.5/1.5.2>,
-        <phy001/1.5/1.5.3>,
-        <phy001/1.5/1.5.4>,
-        <phy001/1.5/1.5.5> ;
+    skos:narrower <phy001/1120ed7f-3246-411b-a6b1-f1a859d7918f>,
+        <phy001/8c4fe04d-a214-451e-b1ca-dab4de5be18f>,
+        <phy001/93ec2b2c-e4f7-4b00-a08d-89ed164fb4a5>,
+        <phy001/9a3a42cd-a578-4576-bc0b-dcd5a3d69182>,
+        <phy001/cc7d67fd-b261-4850-a692-55d042f2a3f9> ;
+    skos:notation "1.5" ;
     skos:prefLabel "Die Schülerinnen und Schüler..."@de .
 
 <phy002> a skos:Concept ;
     skos:definition "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen. Eingebettet in den Prozess physikalischer Erkenntnisgewinnung sind das Experimentieren und das Entwickeln von Fragestellungen wesentliche Bestandteile physikalischen Arbeitens. In jedem Erkenntnisprozess wird auf bereits vorhandenes Wissen zurückgegriffen."@de ;
-    skos:narrower <phy002/2.1>,
-        <phy002/2.2>,
-        <phy002/2.3>,
-        <phy002/2.4>,
-        <phy002/2.5>,
-        <phy002/2.6> ;
+    skos:narrower <phy002/02f905c2-703d-4882-b22b-9674d9687e79>,
+        <phy002/5951b691-1fb4-48a0-9f91-2aaf347bc117>,
+        <phy002/886eb069-8d20-4129-8324-7e9bb38b293b>,
+        <phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39>,
+        <phy002/eef5ba55-51b8-4d7b-9a98-50a1106569c2>,
+        <phy002/f6ad5081-fa81-4fbe-acbe-8f3dbae7e649> ;
     skos:prefLabel "Erkenntnisgewinnung"@de ;
     skos:topConceptOf <> .
 
-<phy003/3.1> a skos:Concept ;
+<phy003/9be8b732-a969-495e-94c1-552bf479f20d> a skos:Concept ;
     skos:broader <phy003> ;
     skos:inScheme <> ;
-    skos:narrower <phy003/3.1/3.1.1>,
-        <phy003/3.1/3.1.2>,
-        <phy003/3.1/3.1.3>,
-        <phy003/3.1/3.1.4>,
-        <phy003/3.1/3.1.5>,
-        <phy003/3.1/3.1.6>,
-        <phy003/3.1/3.1.7> ;
+    skos:narrower <phy003/194ea941-8c0d-476c-9f75-1e84bb496f32>,
+        <phy003/1b3303a8-0ab7-4382-9634-f04ae977afcf>,
+        <phy003/5e313405-879c-4149-8dcd-4f1bbbc94d20>,
+        <phy003/5ea1facc-8125-4ac5-b697-3fdbe48dec70>,
+        <phy003/927f20bb-4cd0-4ddf-a8f0-e8e8ffbcdec8>,
+        <phy003/a6ca11e7-ecb6-497e-8bf9-a6b01077942c>,
+        <phy003/b8e2fb98-ea11-4f13-aa0b-8d2c4a12e024> ;
+    skos:notation "3.1" ;
     skos:prefLabel "Die Schülerinnen und Schüler..."@de .
 
-<phy002/2.6> a skos:Concept ;
+<phy002/ee68d1ff-091a-48a2-9820-f6c66a392c39> a skos:Concept ;
     skos:broader <phy002> ;
     skos:inScheme <> ;
-    skos:narrower <phy002/2.6/2.6.1>,
-        <phy002/2.6/2.6.10>,
-        <phy002/2.6/2.6.2>,
-        <phy002/2.6/2.6.3>,
-        <phy002/2.6/2.6.4>,
-        <phy002/2.6/2.6.5>,
-        <phy002/2.6/2.6.6>,
-        <phy002/2.6/2.6.7>,
-        <phy002/2.6/2.6.8>,
-        <phy002/2.6/2.6.9> ;
+    skos:narrower <phy002/0a01bbe8-6df9-4523-adca-a3f56c4850e9>,
+        <phy002/319f52b6-984c-4d47-8622-c79206791630>,
+        <phy002/7e8b880e-e43b-493e-9168-f01ad8c85741>,
+        <phy002/a64d8af8-8342-413c-a50a-ac428add1dee>,
+        <phy002/b888ea8b-e79b-40e7-862e-3ee5dc1254e4>,
+        <phy002/c32c5d9a-1774-43df-9a65-97ba8a770389>,
+        <phy002/c4c84ab5-782c-42e1-8451-5b9b44232891>,
+        <phy002/ed5006dd-142c-4e47-97bb-59712d23d5fa>,
+        <phy002/f01a66d5-bf7d-4a36-b338-eda51af78850>,
+        <phy002/f7335860-2811-4be4-bccc-ff7c12d17605> ;
+    skos:notation "2.6" ;
     skos:prefLabel "Die Schülerinnen und Schüler..."@de .
 
 <> a skos:ConceptScheme ;
